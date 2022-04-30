@@ -1,9 +1,9 @@
-# efficientocr
+# EfficientOCR
 a High Performance OCR model based on EfficientNet 
 
 # Overview
 
-There were many OCR models opensourced with feature extraction structure based on RCNN, Densenet and so on. with the release of EfficientNet in 2019, it achieve SOTA in many CV tasks with smaller parameter size, "why don't apply this great model in OCR since the feature extraction layers are the same thing" drives me explore the possibility of high performance OCR model.
+There were many OCR models opensourced with feature extraction structure based on RCNN, Densenet and so on. with the release of EfficientNet in 2019, it achieve SOTA in many CV tasks with smaller parameter size, "why don't apply this great model in OCR since the feature extraction layers are the same" drives me explore the possibility of high performance OCR model.
 
 with hundred of experiments and testings, finally I found a working model based on efficientnet which performs great in OCR tasks, named as "EfficientOCR".
 
@@ -28,7 +28,7 @@ Some open source OCR model don't support blank in Chinese model but we resolved 
 1. English                          99%+
 2. Simplified Chinese (Print)       97%+
 3. Traditional Chinese (Print)      95%+
-4. Simplified Chinese (Handwriten)  75%+
+4. Simplified Chinese (Handwriten)  80%+
 5. Traditional Chinese (Handwriten) 70%+
 
 # Performance Comparision (with Google OCR, Baidu OCR, XunFei OCR) TBC
